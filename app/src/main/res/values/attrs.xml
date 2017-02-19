@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwitchView">
+        <attr name="hasShadow" format="boolean" />
+        <attr name="primaryColor" format="color" />
+        <attr name="primaryColorDark" format="color" />
+        <attr name="isOpened" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SwitchButtonView">
+        <!--圆角矩形与内圆的间距-->
+        <attr name="innerPaddingWidth" format="dimension|reference" />
+        <!--底纹颜色-->
+        <attr name="bgColor1" format="color|reference" />
+        <!--填充颜色-->
+        <attr name="bgColor2" format="color|reference" />
+        <!--边框粗细-->
+        <attr name="bgWidth" format="dimension|reference" />
+        <!--选中颜色-->
+        <attr name="coverColor" format="color|reference" />
+        <!--圆默认颜色-->
+        <attr name="circleDefaultColor" format="color|reference" />
+        <!--圆按下颜色-->
+        <attr name="circleSelectColor" format="color|reference" />
+        <!--是否打开-->
+        <attr name="isToggleOn" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ShaderImageView">
+        <!-- 形状类型值 -->
+        <attr name="typeValue" format="enum">
+            <!-- 三角形 -->
+            <enum name="triangle" value="1" />
+            <!-- 矩形 -->
+            <enum name="rectangle" value="2" />
+            <!-- 圆角矩形 -->
+            <enum name="rounded_rectangle" value="3" />
+            <!-- 五角星 -->
+            <enum name="five_pointed_star" value="4" />
+            <!-- 五边形 -->
+            <enum name="pentagon" value="5" />
+            <!-- 六边形 -->
+            <enum name="hexagon" value="6" />
+            <!-- 心形 -->
+            <enum name="heart" value="7" />
+            <!-- 圆形 -->
+            <enum name="circular" value="8" />
+        </attr>
+        <!-- 部分形状的角度类型值 -->
+        <attr name="typeVertexValue" format="enum">
+            <!-- 顶点top -->
+            <enum name="vertex_top" value="1" />
+            <!-- 顶点bottom -->
+            <enum name="vertex_bottom" value="2" />
+            <!-- 顶点left -->
+            <enum name="vertex_left" value="3" />
+            <!-- 顶点right -->
+            <enum name="vertex_right" value="4" />
+        </attr>
+        <!-- 是否需要外边框 -->
+        <attr name="isNeedShaderRing" format="boolean" />
+        <!-- 外边框宽度尺寸 -->
+        <attr name="shaderRingWidth" format="dimension|reference" />
+        <!-- 外边框颜色 -->
+        <attr name="shaderRingColor" format="color|reference" />
+        <!-- 圆角矩形圆滑角度 -->
+        <attr name="roundedRectangleAngle" format="dimension|reference" />
+    </declare-styleable>
+</resources>
